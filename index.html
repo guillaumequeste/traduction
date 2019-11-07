@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Traduction</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <h1 class="titre">Entrez votre texte :</h1>
+        <div class="texteATraduire">
+            <input id="source" cols="30" rows="2">
+        </div>
+
+        <div class="drapeaux">
+            <button id="translateRu" value="ru"><img src="img/russia.png" alt="russia" class="flag"></button>
+            <button id="translateEn" value="en"><img src="img/england.png" alt="england" class="flag"></button>
+            <button id="translateEs" value="es"><img src="img/spain.png" alt="spain" class="flag"></button>
+            <button id="translateIt" value="it"><img src="img/italy.png" alt="italy" class="flag"></button>
+            <button id="translateFr" value="fr"><img src="img/france.png" alt="france" class="flag"></button>
+        </div>
+
+        <div id="json"></div>
+
+        <h1 class="titre">Traduction :</h1>
+        <div id="output"></div>
+    </main>
+
+    <footer>Powered by <a href="https://translate.yandex.com/" target="_blank">Yandex.Translate</a></footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

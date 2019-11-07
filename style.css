@@ -1,0 +1,60 @@
+html,
+body {
+    margin: 0;
+}
+
+main {
+    min-height: 95vh;
+    background-color: rgb(68, 169, 216)
+}
+
+.titre {
+    text-align: center;
+    margin: 0;
+    height: 10vh;
+    line-height: 10vh;
+}
+
+.texteATraduire {
+    text-align: center;
+    margin: 0;
+    height: 10vh;
+    line-height: 10vh;
+}
+
+.drapeaux {
+    text-align: center;
+    margin: 0;
+    height: 25vh;
+    line-height: 25vh;
+}
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.flag {
+    width: 14vw;
+}
+
+#json {
+    display: none;
+}
+
+#output {
+    text-align: center;
+    margin: 0;
+    height: 35vh;
+    line-height: 35vh;
+    font-size: 3em;
+}
+
+footer {
+    height: 5vh;
+    text-align: center;
+    line-height: 5vh;
+    background-color: black;
+    color: white;
+}
