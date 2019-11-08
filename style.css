@@ -8,7 +8,7 @@ main {
     background-color: rgb(68, 169, 216);
 }
 
-.texteATraduire {
+.texteToTranslate {
     text-align: center;
     margin: 0;
     height: 10vh;
@@ -20,7 +20,7 @@ main {
     height: 8vh;
 }
 
-.drapeaux {
+.flags {
     text-align: center;
     margin: 0;
     height: 15vh;
@@ -30,11 +30,14 @@ main {
 button {
     background: none;
     border: none;
-    cursor: pointer;
 }
 
 .flag {
     width: 11vw;
+}
+
+.flag:hover {
+    cursor: pointer;
 }
 
 #json {
