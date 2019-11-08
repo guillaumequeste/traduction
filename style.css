@@ -21,23 +21,46 @@ main {
 }
 
 .flags {
-    text-align: center;
     margin: 0;
-    height: 15vh;
-    line-height: 25vh;
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 25vh;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .flags {
+        min-height: 10vh;
+    }
+}
+
+.divFlag {
+    display: flex;
+    flex-direction: column;
+    width: 16%;
 }
 
 button {
     background: none;
     border: none;
+    width: 100%;
 }
 
 .flag {
-    width: 11vw;
+    width: 10vw;
 }
 
 .flag:hover {
     cursor: pointer;
+}
+
+.spanFlag {
+    width: 100%;
+    height: 10px;
+    margin: 0 auto;
+    font-size: 0.8em;
+    text-align: center;
+    color: white;
 }
 
 #json {
@@ -59,6 +82,12 @@ button {
     line-height: 45vh;
     margin-left: 5%;
     margin-right: 5%;
+}
+
+@media screen and (max-width: 1024px) {
+    .translation {
+        min-height: 55vh;
+    }
 }
 
 #output {
