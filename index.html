@@ -11,9 +11,8 @@
 
 <body>
     <main>
-        <h1 class="titre">Entrez votre texte :</h1>
         <div class="texteATraduire">
-            <input id="source" cols="30" rows="2">
+            <textarea id="source" placeholder="Taper le texte que vous voulez traduire et cliquer sur la langue que vous souhaitez"></textarea>
         </div>
 
         <div class="drapeaux">
@@ -21,13 +20,18 @@
             <button id="translateEn" value="en"><img src="img/england.png" alt="england" class="flag"></button>
             <button id="translateEs" value="es"><img src="img/spain.png" alt="spain" class="flag"></button>
             <button id="translateIt" value="it"><img src="img/italy.png" alt="italy" class="flag"></button>
+            <button id="translateDe" value="de"><img src="img/germany.png" alt="germany" class="flag"></button>
             <button id="translateFr" value="fr"><img src="img/france.png" alt="france" class="flag"></button>
         </div>
 
         <div id="json"></div>
 
-        <h1 class="titre">Traduction :</h1>
-        <div id="output"></div>
+        <div class="divArrow">
+            <img src="img/arrow.png" alt="arrow" class="arrow">
+        </div>
+        <div class="translation">
+            <textarea id="output"></textarea>
+        </div>
     </main>
 
     <footer>Powered by <a href="https://translate.yandex.com/" target="_blank">Yandex.Translate</a></footer>

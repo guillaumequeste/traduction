@@ -5,27 +5,25 @@ body {
 
 main {
     min-height: 95vh;
-    background-color: rgb(68, 169, 216)
-}
-
-.titre {
-    text-align: center;
-    margin: 0;
-    height: 10vh;
-    line-height: 10vh;
+    background-color: rgb(68, 169, 216);
 }
 
 .texteATraduire {
     text-align: center;
     margin: 0;
     height: 10vh;
-    line-height: 10vh;
+    padding-top: 2%;
+}
+
+#source {
+    width: 90vw;
+    height: 8vh;
 }
 
 .drapeaux {
     text-align: center;
     margin: 0;
-    height: 25vh;
+    height: 15vh;
     line-height: 25vh;
 }
 
@@ -36,25 +34,53 @@ button {
 }
 
 .flag {
-    width: 14vw;
+    width: 11vw;
 }
 
 #json {
     display: none;
 }
 
-#output {
+.divArrow {
+    min-height: 10vh;
     text-align: center;
-    margin: 0;
-    height: 35vh;
-    line-height: 35vh;
-    font-size: 3em;
+}
+
+.arrow {
+    width: 50px;
+    transform: rotate(90deg);
+}
+
+.translation {
+    height: 45vh;
+    line-height: 45vh;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#output {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(127, 190, 219);
+    border: none;
+    border-radius: 5px;
+    text-align-last: center;
+    font-size: 2em;
 }
 
 footer {
     height: 5vh;
     text-align: center;
     line-height: 5vh;
-    background-color: black;
+    background-color: rgb(68, 169, 216);
     color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: yellow;
 }
